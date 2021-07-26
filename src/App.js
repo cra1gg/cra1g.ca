@@ -1,14 +1,16 @@
 import logo from './logo.svg';
 import './App.css';
 import { FullPage, Slide } from 'react-full-page';
-import { Card } from 'antd';
+import { Card, Menu } from 'antd';
 import Typing from 'react-typing-animation';
-
+import ReactPageScroller from 'react-page-scroller';
+import Navbar from './Navbar.js'
 function App() {
   return (
+    <div>
+    <Navbar></Navbar>
     <div className="App">
-      <FullPage>
-        <Slide>
+      <ReactPageScroller>
           <div class="main-container">
             <div class="center">
             <Typing>
@@ -18,19 +20,15 @@ function App() {
                 &nbsp;I'm Craig.
               </h1>
               <Typing.Delay ms={2000} />
-              <Typing.Backspace count={17} />
-              <h1 class="main-text">
+              <h2 class="secondary-text">
                 Scroll down to learn about me.
-              </h1>
+              </h2>
             </Typing>
-
             </div>
           </div>
-        </Slide>
-        <Slide>
           <h1>Another slide content</h1>
-        </Slide>
-      </FullPage>
+        </ReactPageScroller>
+    </div>
     </div>
   );
 }
