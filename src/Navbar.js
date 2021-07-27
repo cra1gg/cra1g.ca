@@ -1,5 +1,4 @@
 import React from "react";
-import ReactDOM from "react-dom";
 import "antd/dist/antd.css";
 import "./index.css";
 import { Menu } from "antd";
@@ -14,7 +13,6 @@ import {
 
 } from "@ant-design/icons";
 
-const { SubMenu } = Menu;
 
 function Navbar() {
     return (

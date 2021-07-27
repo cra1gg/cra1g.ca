@@ -1,7 +1,5 @@
-import logo from './logo.svg';
+
 import './App.css';
-import { FullPage, Slide } from 'react-full-page';
-import { Card, Menu } from 'antd';
 import Typing from 'react-typing-animation';
 import ReactPageScroller from 'react-page-scroller';
 import Navbar from './Navbar.js'
