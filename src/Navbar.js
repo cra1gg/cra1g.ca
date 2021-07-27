@@ -13,6 +13,12 @@ import {
 
 } from "@ant-design/icons";
 
+const centerStyle = {
+    position: 'relative',
+    display: 'flex',
+    justifyContent: 'center'
+  };
+
 
 function Navbar() {
     return (
@@ -20,6 +26,7 @@ function Navbar() {
         selectedKeys={0}
         mode="horizontal"
         theme="dark"
+        style={centerStyle}
       >
         <Menu.Item key="home" icon={<HomeOutlined />}>
           Home
