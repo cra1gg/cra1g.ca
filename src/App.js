@@ -34,30 +34,15 @@ function App() {
                 Areas of Interest
               </h1>
               <h2 class="description-text">
-                I'm an experienced DevOps Engineer with interests in the following areas
+                I am a DevOps Engineer with experience in the following areas
               </h2>
-              <Row align="middle" justify="center" gutter={100}>
-                <Col xs={24} xl={6}>
-                  <CogOutline
+              <CogOutline
                   color={'#00000'} 
                   title={"swag"}
                   height="200px"
                   width="200px"
                   />
                   <h1>DevOps Practices</h1>
-                </Col>
-                <Col xs={24} xl={6}>
-                  <CodeSlashOutline
-                    color={'#00000'} 
-                    title={"swag"}
-                    height="200px"
-                    width="200px"
-                  />
-                  <h1>Backend Development</h1>
-                </Col>
-                <Col xs={24} xl={6}>col-6</Col>
-                <Col xs={24} xl={6}>col-6</Col>
-              </Row>
               
 
             </div>
