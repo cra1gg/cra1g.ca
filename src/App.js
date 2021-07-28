@@ -62,7 +62,7 @@ function App() {
                 </Col>
                 <Col className="gutter-row" xs={12} xl={6}>
                 <div style={style}>
-                    <CogOutline
+                    <CodeSlashOutline
                     color={'#00000'} 
                     title={"swag"}
                     height="100%"
