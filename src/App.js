@@ -6,6 +6,7 @@ import Navbar from './Navbar.js'
 import { CogOutline, CodeSlashOutline } from 'react-ionicons'
 import { Row, Col } from 'antd';
 function App() {
+  const style = {padding: '8px 0' };
 
   return (
     <div>
@@ -36,13 +37,53 @@ function App() {
               <h2 class="description-text">
                 I am a DevOps Engineer with experience in the following areas
               </h2>
-              <CogOutline
-                  color={'#00000'} 
-                  title={"swag"}
-                  height="200px"
-                  width="200px"
-                  />
+              <Row gutter={{ xs: 1, sm: 16, md: 10, lg: 10 }}>
+                <Col className="gutter-row" xs={12} xl={6}>
+                  <div style={style}>
+                    <CogOutline
+                    color={'#00000'} 
+                    title={"swag"}
+                    height="100%"
+                    width="100%"
+                    />
                   <h1>DevOps Practices</h1>
+                  </div>
+                </Col>
+                <Col className="gutter-row" xs={12} xl={6}>
+                  <div style={style}>
+                      <CogOutline
+                      color={'#00000'} 
+                      title={"swag"}
+                      height="100%"
+                      width="100%"
+                      />
+                    <h1>DevOps Practices</h1>
+                    </div>
+                </Col>
+                <Col className="gutter-row" xs={12} xl={6}>
+                <div style={style}>
+                    <CogOutline
+                    color={'#00000'} 
+                    title={"swag"}
+                    height="100%"
+                    width="100%"
+                    />
+                  <h1>DevOps Practices</h1>
+                  </div>
+                </Col>
+                <Col className="gutter-row" xs={12} xl={6}>
+                <div style={style}>
+                    <CogOutline
+                    color={'#00000'} 
+                    title={"swag"}
+                    height="100%"
+                    width="100%"
+                    />
+                  <h1>DevOps Practices</h1>
+                  </div>
+                </Col>
+              </Row>
+              
               
 
             </div>
