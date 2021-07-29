@@ -48,6 +48,7 @@
 .secondary-container {
   height: 100%;
   position: relative;
+  background-color: #1E333C;
 }
 
 .center {
@@ -69,12 +70,47 @@
   font-size: 30px;
 }
 
-.title-text {
-  color: black;
-  font-size: 3em;
-}
+
 .site-layout-content {
   min-height: 280px;
   padding: 24px;
   background: #fff;
+}
+
+.icon-text {
+  color: rgb(241, 232, 232);
+  font-size: 1vw;
+}
+
+@media screen and (min-width: 601px) {
+  .title-text {
+    color: rgb(255, 255, 255);
+    font-size: 4vw;
+  }
+  
+  .description-text {
+    color: rgb(236, 236, 236);
+    font-size: 1.7vw;
+  }
+  .icon-text {
+    color: rgb(246, 246, 246);
+    font-size: 1.5vw;
+  }
+}
+
+/* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
+@media screen and (max-width: 600px) {
+  .title-text {
+    color: rgb(255, 249, 249);
+    font-size: 7vw;
+  }
+  
+  .description-text {
+    color: rgb(250, 243, 243);
+    font-size: 4vw;
+  }
+  .icon-text {
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+  }
 }
