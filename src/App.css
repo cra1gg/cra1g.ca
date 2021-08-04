@@ -51,6 +51,12 @@
   background-color: #1E333C;
 }
 
+.third-container {
+  height: 100%;
+  position: relative;
+  background-color: #7C9CAC;
+}
+
 .center {
   margin: 0;
   position: absolute;

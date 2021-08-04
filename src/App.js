@@ -89,7 +89,7 @@ function App() {
             </div>
 
           </div>
-          <div class="secondary-container">
+          <div class="third-container">
             <div class="center">
               <h1 class="title-text">
                 Skills
