@@ -2,18 +2,17 @@
 import './App.css';
 import Typing from 'react-typing-animation';
 import ReactPageScroller from 'react-page-scroller';
-import Navbar from './Navbar.js'
+import SiteLayout from './SiteLayout.js'
 import { CogOutline, CodeSlashOutline, HardwareChipOutline, RocketOutline } from 'react-ionicons'
 import { Row, Col } from 'antd';
+
 function App() {
   const style = {padding: '8px 0' };
 
   return (
-    <div>
-    <Navbar></Navbar>
+    <SiteLayout>
     <div className="App">
       <ReactPageScroller>
-        
           <div class="main-container">
             <div class="center">
             <Typing>
@@ -90,7 +89,7 @@ function App() {
           </div>
         </ReactPageScroller>
     </div>
-    </div>
+    </SiteLayout>
   );
 }
 

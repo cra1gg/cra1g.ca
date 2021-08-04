@@ -1,6 +1,6 @@
 import React from "react";
 import "antd/dist/antd.css";
-import "./index.css";
+import "./Navbar.css";
 import { Menu } from "antd";
 import {
   GithubOutlined,
@@ -16,7 +16,7 @@ import {
 const centerStyle = {
     position: 'relative',
     display: 'flex',
-    justifyContent: 'center'
+    justifyContent: 'center',
   };
 
 
