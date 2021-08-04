@@ -36,7 +36,7 @@ function App() {
               <h2 class="description-text">
                 I am a DevOps Engineer with experience in the following areas
               </h2>
-              <Row gutter={{ xs: 1, sm: 16, md: 10, lg: 30 }}>
+              <Row gutter={{ xs: 60, sm: 40, md: 10, lg: 30 }}>
                 <Col className="gutter-row" xs={12} xl={6}>
                   <div style={style}>
                     <CogOutline
@@ -55,6 +55,7 @@ function App() {
                       title={"swag"}
                       height="100%"
                       width="100%"
+                      class="skills-badge"
                       />
                     <h1 class="icon-text">Software Development</h1>
                     </div>
@@ -86,6 +87,17 @@ function App() {
               
 
             </div>
+
+          </div>
+          <div class="secondary-container">
+            <div class="center">
+              <h1 class="title-text">
+                Skills
+              </h1> 
+              <h2 class="secondary-text">
+                None.
+              </h2>
+            </div>  
           </div>
         </ReactPageScroller>
     </div>
