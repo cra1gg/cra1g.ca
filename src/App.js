@@ -94,9 +94,105 @@ function App() {
               <h1 class="title-text">
                 Skills
               </h1> 
-              <h2 class="secondary-text">
-                None.
-              </h2>
+              <Row gutter={{ xs: 60, sm: 40, md: 10, lg: 40 }}>
+                <Col className="gutter-row" xs={12} xl={6}>
+                  <div style={style}>
+                    <CogOutline
+                    color={'white'} 
+                    title={"swag"}
+                    height="50%"
+                    width="50%"
+                    />
+                  <h1 class="icon-text">DevOps Practices</h1>
+                  </div>
+                  
+                </Col>
+                <Col className="gutter-row" xs={12} xl={6}>
+                  <div style={style}>
+                    <CogOutline
+                    color={'white'} 
+                    title={"swag"}
+                    height="50%"
+                    width="50%"
+                    />
+                  <h1 class="icon-text">DevOps Practices</h1>
+                  </div>
+                  
+                </Col>
+                <Col className="gutter-row" xs={12} xl={6}>
+                  <div style={style}>
+                    <CogOutline
+                    color={'white'} 
+                    title={"swag"}
+                    height="50%"
+                    width="50%"
+                    />
+                  <h1 class="icon-text">DevOps Practices</h1>
+                  </div>
+                  
+                </Col>
+                <Col className="gutter-row" xs={12} xl={6}>
+                  <div style={style}>
+                    <CogOutline
+                    color={'white'} 
+                    title={"swag"}
+                    height="50%"
+                    width="50%"
+                    />
+                  <h1 class="icon-text">DevOps Practices</h1>
+                  </div>
+                  
+                </Col>
+                <Col className="gutter-row" xs={12} xl={6}>
+                  <div style={style}>
+                    <CogOutline
+                    color={'white'} 
+                    title={"swag"}
+                    height="50%"
+                    width="50%"
+                    />
+                  <h1 class="icon-text">DevOps Practices</h1>
+                  </div>
+                  
+                </Col>
+                <Col className="gutter-row" xs={12} xl={6}>
+                  <div style={style}>
+                    <CogOutline
+                    color={'white'} 
+                    title={"swag"}
+                    height="50%"
+                    width="50%"
+                    />
+                  <h1 class="icon-text">DevOps Practices</h1>
+                  </div>
+                  
+                </Col>
+                <Col className="gutter-row" xs={12} xl={6}>
+                  <div style={style}>
+                    <CogOutline
+                    color={'white'} 
+                    title={"swag"}
+                    height="50%"
+                    width="50%"
+                    />
+                  <h1 class="icon-text">DevOps Practices</h1>
+
+                  </div>
+                  
+                </Col>
+                <Col className="gutter-row" xs={12} xl={6}>
+                  <div style={style}>
+                    <CogOutline
+                    color={'white'} 
+                    title={"swag"}
+                    height="50%"
+                    width="50%"
+                    />
+                  <h1 class="icon-text">DevOps Practices</h1>
+                  </div>
+                  
+                </Col>
+              </Row>
             </div>  
           </div>
         </ReactPageScroller>
