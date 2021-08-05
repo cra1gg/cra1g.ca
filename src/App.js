@@ -1,7 +1,7 @@
 
 import './App.css';
 import Typing from 'react-typing-animation';
-import ReactPageScroller from 'react-page-scroller';
+//import ReactPageScroller from 'react-page-scroller';
 import SiteLayout from './SiteLayout.js'
 import { CogOutline, CodeSlashOutline, HardwareChipOutline, RocketOutline } from 'react-ionicons'
 import { Row, Col } from 'antd';
