@@ -5,6 +5,8 @@ import Typing from 'react-typing-animation';
 import SiteLayout from './SiteLayout.js'
 import { CogOutline, CodeSlashOutline, HardwareChipOutline, RocketOutline } from 'react-ionicons'
 import { Row, Col } from 'antd';
+import Fade from 'react-reveal/Fade';
+
 
 function App() {
   const style = {padding: '8px 0' };
@@ -29,12 +31,20 @@ function App() {
       </div>
       <div class="secondary-container">
         <div class="center">
+        <Fade left>
+        </Fade>
           <h1 class="title-text">
+            <Fade left>
             Areas of Interest
+            </Fade>
+            
           </h1>
           <h2 class="description-text">
+          <Fade left>
             I am a DevOps Engineer with experience in the following areas
+            </Fade>
           </h2>
+          <Fade up>
           <Row gutter={{ xs: 60, sm: 40, md: 10, lg: 30 }}>
             <Col className="gutter-row" xs={12} xl={6}>
               <div style={style}>
@@ -82,6 +92,7 @@ function App() {
               </div>
             </Col>
           </Row>
+          </Fade>
         </div>
       </div>
       <div class="third-container">
