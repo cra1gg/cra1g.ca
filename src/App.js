@@ -3,7 +3,7 @@ import './App.css';
 import Typing from 'react-typing-animation';
 //import ReactPageScroller from 'react-page-scroller';
 import SiteLayout from './SiteLayout.js'
-import { CogOutline, CodeSlashOutline, HardwareChipOutline, RocketOutline } from 'react-ionicons'
+import { CogOutline, StatsChartOutline, CodeSlashOutline, HardwareChipOutline, RocketOutline, TerminalOutline } from 'react-ionicons'
 import { Row, Col } from 'antd';
 import Fade from 'react-reveal/Fade';
 
@@ -31,8 +31,6 @@ function App() {
       </div>
       <div class="secondary-container">
         <div class="center">
-        <Fade left>
-        </Fade>
           <h1 class="title-text">
             <Fade left>
             Areas of Interest
@@ -101,19 +99,25 @@ function App() {
             Skills
           </h1> 
           <Row gutter={{ xs: 60, sm: 40, md: 10, lg: 40 }}>
-            <Col className="gutter-row" xs={12} xl={6}>
+            <Col className="gutter-row" xs={12} xl={8}>
               <div style={style}>
-                <CogOutline
+                <CodeSlashOutline
                 color={'white'} 
                 title={"swag"}
                 height="50%"
                 width="50%"
                 />
-              <h1 class="icon-text">DevOps Practices</h1>
+              <h1 class="icon-text">Programming Languages</h1>
+              <h1 class="skill">Python</h1>
+              <h1 class="skill">Java</h1>
+              <h1 class="skill">C</h1>
+              <h1 class="skill">JavaScript</h1>
+              <h1 class="skill">Assembly (MIPS)</h1>
+              <h1 class="skill">Scheme (Racket, Haskell)</h1>
               </div>
               
             </Col>
-            <Col className="gutter-row" xs={12} xl={6}>
+            <Col className="gutter-row" xs={12} xl={8}>
               <div style={style}>
                 <CogOutline
                 color={'white'} 
@@ -121,11 +125,11 @@ function App() {
                 height="50%"
                 width="50%"
                 />
-              <h1 class="icon-text">DevOps Practices</h1>
+              <h1 class="icon-text">Databases</h1>
               </div>
               
             </Col>
-            <Col className="gutter-row" xs={12} xl={6}>
+            <Col className="gutter-row" xs={12} xl={8}>
               <div style={style}>
                 <CogOutline
                 color={'white'} 
@@ -133,35 +137,41 @@ function App() {
                 height="50%"
                 width="50%"
                 />
-              <h1 class="icon-text">DevOps Practices</h1>
+              <h1 class="icon-text">Software</h1>
               </div>
               
             </Col>
-            <Col className="gutter-row" xs={12} xl={6}>
+            <Col className="gutter-row" xs={12} xl={8}>
               <div style={style}>
-                <CogOutline
+                <TerminalOutline
                 color={'white'} 
                 title={"swag"}
                 height="50%"
                 width="50%"
                 />
-              <h1 class="icon-text">DevOps Practices</h1>
+              <h1 class="icon-text">Tools</h1>
+              <h1 class="skill">Python</h1>
+              <h1 class="skill">Java</h1>
+              <h1 class="skill">C</h1>
+              <h1 class="skill">JavaScript</h1>
+              <h1 class="skill">Assembly (MIPS)</h1>
+              <h1 class="skill">Scheme (Racket, Haskell)</h1>
               </div>
               
             </Col>
-            <Col className="gutter-row" xs={12} xl={6}>
+            <Col className="gutter-row" xs={12} xl={8}>
               <div style={style}>
-                <CogOutline
+                <StatsChartOutline
                 color={'white'} 
                 title={"swag"}
                 height="50%"
                 width="50%"
                 />
-              <h1 class="icon-text">DevOps Practices</h1>
+              <h1 class="icon-text">Data Analytics</h1>
               </div>
               
             </Col>
-            <Col className="gutter-row" xs={12} xl={6}>
+            <Col className="gutter-row" xs={12} xl={8}>
               <div style={style}>
                 <CogOutline
                 color={'white'} 
@@ -169,32 +179,7 @@ function App() {
                 height="50%"
                 width="50%"
                 />
-              <h1 class="icon-text">DevOps Practices</h1>
-              </div>
-              
-            </Col>
-            <Col className="gutter-row" xs={12} xl={6}>
-              <div style={style}>
-                <CogOutline
-                color={'white'} 
-                title={"swag"}
-                height="50%"
-                width="50%"
-                />
-              <h1 class="icon-text">DevOps Practices</h1>
-
-              </div>
-              
-            </Col>
-            <Col className="gutter-row" xs={12} xl={6}>
-              <div style={style}>
-                <CogOutline
-                color={'white'} 
-                title={"swag"}
-                height="50%"
-                width="50%"
-                />
-              <h1 class="icon-text">DevOps Practices</h1>
+              <h1 class="icon-text">Knowledge in</h1>
               </div>
               
             </Col>

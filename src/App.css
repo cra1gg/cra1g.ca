@@ -109,6 +109,12 @@
     width: 100%;
   }
 
+  .skill {
+    color: rgb(246, 246, 246);
+    font-size: 0.9vw;
+    line-height: 0.9vw;
+
+  }
 }
 
 /* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
