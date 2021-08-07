@@ -1,0 +1,96 @@
+  .secondary-container {
+    height: 100vh;
+    position: relative;
+    background-color: #1E333C;
+  }
+  
+  
+  .center {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    
+  }
+  
+  
+  
+  
+  .site-layout-content {
+    min-height: 280px;
+    padding: 24px;
+    background: #fff;
+  }
+  
+  .icon-text {
+    color: rgb(241, 232, 232);
+    font-size: 1vw;
+  }
+  
+  @media screen and (min-width: 601px) {
+    .main-text {
+      color: white;
+      font-size: 3.5vw;
+    }
+    .secondary-text {
+      color: white;
+      font-size: 1.6vw;
+    }
+    .title-text {
+      color: rgb(255, 255, 255);
+      font-size: 3vw;
+    }
+    
+    .description-text {
+      color: rgb(236, 236, 236);
+      font-size: 1.3vw;
+    }
+    .icon-text {
+      color: rgb(246, 246, 246);
+      font-size: 1.2vw;
+    }
+  
+    .skills-badge {
+      height: 100%;
+      width: 100%;
+    }
+  
+    .skill {
+      color: rgb(246, 246, 246);
+      font-size: 0.9vw;
+      line-height: 0.9vw;
+  
+    }
+  }
+  
+  /* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
+  @media screen and (max-width: 600px) {
+    .main-text {
+      color: white;
+      font-size: 7vw;
+    }
+    .secondary-text {
+      color: white;
+      font-size: 4vw;
+    }
+    .title-text {
+      color: rgb(255, 249, 249);
+      font-size: 7vw;
+    }
+    
+    .description-text {
+      color: rgb(250, 243, 243);
+      font-size: 3vw;
+    }
+    .icon-text {
+      color: rgb(255, 255, 255);
+      font-size: 3.2vw;
+    }
+  
+    .skills-badge {
+      height: 100%;
+      width: 100%;
+    }
+  }
