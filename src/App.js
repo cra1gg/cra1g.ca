@@ -4,8 +4,6 @@ import Interests from './components/Home/Interests/Interests.js'
 import Skills from './components/Home/Skills/Skills.js'
 
 function App() {
-  const style = {padding: '8px 0' };
-
   return (
     <SiteLayout>
     <div className="App">
