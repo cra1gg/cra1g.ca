@@ -1,6 +1,4 @@
-.App {
-    text-align: center;
-  }
+
   
   .App-logo {
     height: 40vmin;
@@ -42,12 +40,14 @@
     height: 100vh;
     position: relative;
     background-color: #1E333C;
+    text-align: center;
   }
   
   .third-container {
     height: 100vh;
     position: relative;
     background-color: #7C9CAC;
+    text-align: center;
   }
   
   .center {
