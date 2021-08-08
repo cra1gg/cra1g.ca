@@ -138,4 +138,11 @@
       height: 100%;
       width: 100%;
     }
+
+    .skill {
+      color: rgb(246, 246, 246);
+      font-size: 2.5vw;
+      line-height: 3vw;
+  
+    }
   }

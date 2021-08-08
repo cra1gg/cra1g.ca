@@ -15,7 +15,7 @@ function Skills() {
         Skills
         </Roll>
         </h1> 
-        <Row gutter={[{ xs: 60, sm: 40, md: 10, lg: 40 }, { xs: 60, sm: 40, md: 10, lg: 60 }]}>
+        <Row gutter={[{ xs: 60, sm: 40, md: 10, lg: 40 }, { xs: 10, sm: 40, md: 10, lg: 60 }]}>
         <Col className="gutter-row" xs={12} xl={8}>
         <Roll left>
             <div style={style}>
@@ -31,7 +31,7 @@ function Skills() {
             <h1 class="skill">C</h1>
             <h1 class="skill">JavaScript</h1>
             <h1 class="skill">Assembly (MIPS)</h1>
-            <h1 class="skill">Scheme (Racket, Haskell)</h1>
+            <h1 class="skill">Racket, Haskell</h1>
             </div>
             </Roll>
         </Col>
