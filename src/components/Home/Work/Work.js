@@ -1,7 +1,7 @@
 
 import './main.css';
 import { PersonOutline, StarOutline } from 'react-ionicons'
-import Roll from 'react-reveal/Roll';
+import Slide from 'react-reveal/Slide';
 import { VerticalTimeline, VerticalTimelineElement }  from 'react-vertical-timeline-component';
 import 'react-vertical-timeline-component/style.min.css';
 
@@ -10,9 +10,9 @@ function Work() {
   return (
     <div class="fourth-container">
         <h1 class="work-history-text">
-        <Roll left>
+        <Slide right>
         Work History
-        </Roll>
+        </Slide>
         </h1> 
         <VerticalTimeline>
         <VerticalTimelineElement
