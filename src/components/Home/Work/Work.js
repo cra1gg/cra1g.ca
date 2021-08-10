@@ -1,6 +1,6 @@
 
 import './main.css';
-import { PersonOutline, StarOutline } from 'react-ionicons'
+import { StarOutline } from 'react-ionicons'
 import Slide from 'react-reveal/Slide';
 import { VerticalTimeline, VerticalTimelineElement }  from 'react-vertical-timeline-component';
 import 'react-vertical-timeline-component/style.min.css';
