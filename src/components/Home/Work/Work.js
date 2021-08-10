@@ -4,6 +4,7 @@ import { PersonOutline, StarOutline } from 'react-ionicons'
 import Slide from 'react-reveal/Slide';
 import { VerticalTimeline, VerticalTimelineElement }  from 'react-vertical-timeline-component';
 import 'react-vertical-timeline-component/style.min.css';
+import { FaIdBadge, FaHammer, FaChartBar, FaChartLine, FaCode } from "react-icons/fa";
 
 function Work() {
 
@@ -19,7 +20,7 @@ function Work() {
             className="vertical-timeline-element--work"
             date="May - June 2018"
             iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
-            icon={<PersonOutline />}
+            icon={<FaHammer />}
             contentStyle={{ background: '#1E333C', color: '#fff' }}
         >
             <h3 className="vertical-timeline-element-title">Press Shop Technician</h3>
@@ -34,7 +35,7 @@ function Work() {
             className="vertical-timeline-element--work"
             date="June - September 2018"
             iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
-            icon={<PersonOutline />}
+            icon={<FaIdBadge />}
             contentStyle={{ background: '#1E333C', color: '#fff' }}
         >
             <h3 className="vertical-timeline-element-title">Security Officer</h3>
@@ -50,7 +51,7 @@ function Work() {
             className="vertical-timeline-element--work"
             date="May - August 2019"
             iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
-            icon={<PersonOutline />}
+            icon={<FaChartBar />}
             contentStyle={{ background: '#1E333C', color: '#fff' }}
         >
             <h3 className="vertical-timeline-element-title">Business Intelligence Analyst</h3>
@@ -68,7 +69,7 @@ function Work() {
             className="vertical-timeline-element--work"
             date="May - August 2020"
             iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
-            icon={<PersonOutline />}
+            icon={<FaChartLine />}
             contentStyle={{ background: '#1E333C', color: '#fff' }}
             
         >
@@ -89,7 +90,7 @@ function Work() {
             date="April 2021 - Present"
             iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
             contentStyle={{ background: '#1E333C', color: '#fff' }}
-            icon={<PersonOutline />}
+            icon={<FaCode />}
         >
             <h3 className="vertical-timeline-element-title">DevOps Engineer</h3>
             <h4 className="vertical-timeline-element-subtitle">Riskfuel Analytics - Toronto, ON</h4>
