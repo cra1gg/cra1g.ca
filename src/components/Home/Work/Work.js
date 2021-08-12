@@ -1,6 +1,5 @@
 
 import './main.css';
-import { StarOutline } from 'react-ionicons'
 import Slide from 'react-reveal/Slide';
 import { VerticalTimeline, VerticalTimelineElement }  from 'react-vertical-timeline-component';
 import 'react-vertical-timeline-component/style.min.css';
@@ -96,10 +95,6 @@ function Work() {
             <h4 className="vertical-timeline-element-subtitle">Riskfuel Analytics - Toronto, ON</h4>
             
         </VerticalTimelineElement>
-        <VerticalTimelineElement
-            iconStyle={{ background: 'rgb(16, 204, 82)', color: '#fff' }}
-            icon={<StarOutline />}
-        />
         </VerticalTimeline>
     </div>  
   );
