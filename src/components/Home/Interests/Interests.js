@@ -5,18 +5,16 @@ import { Row, Col } from 'antd';
 import Fade from 'react-reveal/Fade';
 
 
-function Interests() {
+function Education() {
   const style = {padding: '8px 0' };
   return (
     <div class="secondary-container">
     <div class="center">
         <h1 class="title-text">
-        <Fade left>
         Areas of Interest
-        </Fade>
         </h1>
         <h2 class="description-text">
-        <Fade left>
+        <Fade up>
         I am a DevOps Engineer with experience in the following areas
         </Fade>
         </h2>
@@ -74,4 +72,4 @@ function Interests() {
   );
 }
 
-export default Interests;
+export default Education;

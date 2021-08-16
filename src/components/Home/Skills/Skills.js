@@ -11,9 +11,7 @@ function Skills() {
     <div class="third-container">
     <div class="center">
         <h1 class="title-text">
-        <Roll left>
         Skills
-        </Roll>
         </h1> 
         <Row gutter={[{ xs: 60, sm: 40, md: 10, lg: 40 }, { xs: 10, sm: 40, md: 10, lg: 60 }]}>
         <Col className="gutter-row" xs={12} xl={8}>

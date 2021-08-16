@@ -10,9 +10,7 @@ function Work() {
   return (
     <div class="fourth-container">
         <h1 class="work-history-text">
-        <Slide right>
         Work History
-        </Slide>
         </h1> 
         <VerticalTimeline>
         <VerticalTimelineElement
