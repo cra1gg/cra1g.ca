@@ -1,9 +1,6 @@
 
 import './main.css';
-import { CogOutline, CodeSlashOutline, HardwareChipOutline, RocketOutline } from 'react-ionicons'
-import { Row, Col } from 'antd';
-import Fade from 'react-reveal/Fade';
-import { Parallax, Background } from "react-parallax";
+import { Parallax } from "react-parallax";
 
 const styles = {
     fontFamily: "sans-serif",
@@ -18,7 +15,6 @@ const styles = {
   };
 
 function Interests() {
-  const style = {padding: '8px 0' };
   return (
     <div style={styles}>
     <Parallax

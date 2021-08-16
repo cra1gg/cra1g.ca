@@ -1,6 +1,5 @@
 
 import './main.css';
-import Slide from 'react-reveal/Slide';
 import { VerticalTimeline, VerticalTimelineElement }  from 'react-vertical-timeline-component';
 import 'react-vertical-timeline-component/style.min.css';
 import { FaIdBadge, FaHammer, FaChartBar, FaChartLine, FaCode } from "react-icons/fa";
