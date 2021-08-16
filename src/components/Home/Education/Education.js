@@ -1,5 +1,3 @@
-
-import './main.css';
 import { Parallax } from "react-parallax";
 
 const styles = {
@@ -16,7 +14,7 @@ const styles = {
 
 function Interests() {
   return (
-    <div style={styles}>
+    <div className="test" style={styles}>
     <Parallax
       strength={200}
       renderLayer={(percentage) => (
@@ -24,13 +22,13 @@ function Interests() {
           <div
             style={{
               position: "absolute",
-              background: `rgba(255, 125, 0, ${percentage * 1})`,
+              background: `rgba(30, 33, 33, ${percentage * 1})`,
               left: "50%",
               top: "50%",
               borderRadius: "50%",
               transform: "translate(-50%,-50%)",
-              width: percentage * "750",
-              height: percentage * "750"
+              width: percentage * 1000,
+              height: percentage * 1000 
             }}
           />
         </div>
@@ -38,8 +36,8 @@ function Interests() {
     >
       <div style={{ height: "100vh" }}>
         <div style={insideStyles}>
-          <h1>Education</h1>
-          <p>Test</p>
+          <h1 class="main-text">Education</h1>
+          <h1 class="secondary-text">Honors Bachelor of Science, University of Toronto</h1>
         </div>
       </div>
     </Parallax>
