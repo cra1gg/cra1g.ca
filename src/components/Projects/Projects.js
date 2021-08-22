@@ -2,7 +2,7 @@ import "./main.css";
 import 'react-hoverable-card/dist/index.css'
 import { Card } from 'antd';
 import reffy from '../../media/reffy.png'
-import { Parallax, Background } from 'react-parallax';
+import { Parallax } from 'react-parallax';
 
 const { Meta } = Card;
 
