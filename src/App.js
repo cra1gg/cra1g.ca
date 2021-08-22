@@ -1,20 +1,27 @@
-import SiteLayout from './SiteLayout.js'
-import MainIntro from './components/Home/MainIntro/MainIntro.js'
-import Interests from './components/Home/Interests/Interests.js'
-import Skills from './components/Home/Skills/Skills.js'
-import Work from './components/Home/Work/Work.js'
-import Education from './components/Home/Education/Education.js'
+import Navbar from './components/Navbar/Navbar.js'
+import Home from './components/Home/Home.js'
+import Projects from './components/Projects/Projects.js'
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route
+} from "react-router-dom";
+import { Layout} from 'antd';
+const { Header, Content } = Layout;
+
 function App() {
   return (
-    <SiteLayout>
-    <div className="App">
-      <MainIntro></MainIntro>
-      <Interests></Interests>
-      <Education></Education>
-      <Skills></Skills>
-      <Work></Work>
-    </div>
-    </SiteLayout>
+    <Router>
+    <Header style={{ position: 'fixed', zIndex: 1, width: '100%', lineHeight: '40px', height: '40px' }}>
+      <Navbar></Navbar>
+    </Header>
+      <div>
+        <Switch>
+            <Route exact path="/" component={Home} />
+            <Route path="/projects" component={Projects} />
+        </Switch>
+      </div>   
+     </Router>
   );
 }
 

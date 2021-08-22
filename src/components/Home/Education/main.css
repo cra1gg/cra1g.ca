@@ -4,10 +4,10 @@
   .secondary-container {
     height: 100vh;
     position: relative;
-    background-color: #1E333C;
+    background-color: #00b3ff;
   }
   
-  
+
   .center {
     margin: 0;
     position: absolute;
@@ -24,11 +24,11 @@
   .site-layout-content {
     min-height: 280px;
     padding: 24px;
-    background: #fff;
+    background: rgb(255, 0, 0);
   }
   
   .icon-text {
-    color: rgb(241, 232, 232);
+    color: rgb(255, 0, 0);
     font-size: 1vw;
   }
   
