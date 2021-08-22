@@ -7,7 +7,7 @@ import {
   Route
 } from "react-router-dom";
 import { Layout} from 'antd';
-const { Header, Content } = Layout;
+const { Header } = Layout;
 
 function App() {
   return (
