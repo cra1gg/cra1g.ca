@@ -1,21 +1,40 @@
 import "./main.css";
-import { HoverableCard } from 'react-hoverable-card'
 import 'react-hoverable-card/dist/index.css'
+import { Card } from 'antd';
+import reffy from '../../media/reffy.png'
+import { Parallax, Background } from 'react-parallax';
+
+const { Meta } = Card;
 
 
 function Projects() {
     return (
-      <div class="projects-main">
-        <div class="project">
-        <HoverableCard
-            cardTitle="Lorem Ipsum"
-            cardDescription="Phasellus tincidunt vestibulum elit vel laoreet. Vivamus tincidunt augue eget lacus blandit tempor."
-            cardImage="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1280px-React-icon.svg.png"
-            hoverBgColor="grey"
-            style={{height:"100%", width:"100%"}}
-        />
-      </div>
-      </div>
+      <Parallax strength={300}>
+        <div class="projects-main" style={{ overflowY: 'scroll', height: 'calc(100vh)' }}>
+        <div class="projects">
+          <div class="holder">
+            <Card
+              hoverable
+              style={{ width: "100%" }}
+              cover={<img alt="example" src={reffy} />}
+            >
+              <Meta title="Reffy" description="www.instagram.com" />          
+            </Card>
+          </div>
+          <div class="holder">
+            <Card
+              hoverable
+              style={{ width: "100%" }}
+              cover={<img alt="example" src={reffy} />}
+            >
+              <Meta title="Reffy" description="www.instagram.com" />          
+            </Card>
+          </div>
+          </div>
+        </div>
+      </Parallax>
+
+
     );
   }
   

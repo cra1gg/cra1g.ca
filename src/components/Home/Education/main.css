@@ -6,7 +6,10 @@
     position: relative;
     background-color: #00b3ff;
   }
-  
+
+  .degree {
+    width: "30vh"
+  }
 
   .center {
     margin: 0;

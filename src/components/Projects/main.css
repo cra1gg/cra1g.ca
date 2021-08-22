@@ -1,6 +1,4 @@
-html, body {
-    
-  }
+
   
 .projects-main {
     background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
@@ -11,7 +9,12 @@ html, body {
     position: relative;
 }
 
-.project {
+.holder {
+    width: 100vh;
+    height:100vh; 
+}
+
+.projects {
     height: 70vh;
     position: absolute;
     top: 50%;

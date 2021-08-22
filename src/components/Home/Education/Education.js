@@ -1,6 +1,7 @@
 import { Parallax } from "react-parallax";
 import { Image } from 'antd';
 import degree from '../../../media/degree.png';
+
 const styles = {
     textAlign: "center"
   };
@@ -45,7 +46,7 @@ function Interests() {
             <h1 class="icon-text">Minors: Mathematics, Geography</h1>
             <h1 class="icon-text">cGPA: 3.54</h1>
             <Image
-              width={500}
+              width="20rem"
               src={degree}
             />
 
