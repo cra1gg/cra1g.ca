@@ -3,7 +3,6 @@ import 'react-hoverable-card/dist/index.css'
 import { Card } from 'antd';
 import reffy from '../../media/reffy.png'
 import { Parallax } from 'react-parallax';
-import * as Scroll from 'react-scroll';
 
 const { Meta } = Card;
 
