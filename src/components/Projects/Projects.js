@@ -4,7 +4,6 @@ import { Card } from 'antd';
 import reffy from '../../media/reffy.png'
 import { Parallax } from 'react-parallax';
 import * as Scroll from 'react-scroll';
-import { Link, Button, Element, Events, animateScroll as scroll, scrollSpy, scroller } from 'react-scroll'
 
 const { Meta } = Card;
 
@@ -31,7 +30,6 @@ function Projects() {
             
           </div>
           <div class="holder">
-            <Element name="project2" className="element">
             <Card
               hoverable
               style={{ width: "100%" }}
@@ -39,7 +37,6 @@ function Projects() {
             >
               <Meta title="Reffy" description="www.instagram.com" />          
             </Card>
-            </Element>
           </div>
           </div>
         </div>

@@ -19,7 +19,7 @@ function Interests() {
       <Parallax
         strength={200}
         renderLayer={(percentage) => (
-          <div>
+          <div style={{background: `rgba(30, 33, 33)`}}>
             <div
               style={{
                 position: "absolute",
