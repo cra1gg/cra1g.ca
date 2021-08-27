@@ -9,11 +9,15 @@ const { Meta } = Card;
 
 function Projects() {
     return (
+      <div>
+      
       <Parallax strength={300}>
+        
         <div class="projects-main" style={{ overflowY: 'scroll', height: 'calc(100vh)' }}>
-        <h1 class="main-title">Projects</h1>
+        
+        
         <div class="projects">
-          
+          <h1 class="main-title">Projects</h1>
           <div class="holder">
             <Card
               hoverable
@@ -28,19 +32,10 @@ function Projects() {
             </Card>
             
           </div>
-          <div class="holder">
-            <Card
-              hoverable
-              style={{ width: "100%" }}
-              cover={<img alt="example" src={reffy} />}
-            >
-              <Meta title="Reffy" description="www.instagram.com" />          
-            </Card>
-          </div>
           </div>
         </div>
       </Parallax>
-
+      </div>
 
     );
   }

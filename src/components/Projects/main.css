@@ -4,7 +4,6 @@
     text-align: center;
     font-size: 4rem;
     color:#fff;
-    padding-top: 50px;
 
 }
 
@@ -109,8 +108,19 @@ a { color: white; text-decoration: none; }
   }
 }  
 
+.ant-card-meta-title {
+  font-size: 3rem;
+  text-align: center;
+}
+
+
+.ant-card-meta-description {
+  font-size: 1.5rem;
+  text-align: center;
+}
+
 .projects-main {
-    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    background: linear-gradient(-45deg, #2A7788,  #1E323B, #1E2020);
     background-size: 400% 400%;
     animation: gradient 30s ease infinite;
     width: 100%;
@@ -119,14 +129,14 @@ a { color: white; text-decoration: none; }
 }
 
 .holder {
-    width: 100vh;
-    height:70vh; 
+    width: 60vw;
+    height:50vh; 
 }
 
 .projects {
     height: 70vh;
     position: absolute;
-    top: 50%;
+    top: 43%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
