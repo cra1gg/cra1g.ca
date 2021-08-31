@@ -27,6 +27,7 @@ function Projects() {
             <Col span={12}>
               <h1 class="project-title">Reffy.xyz</h1>
               <h1 class="project-url">https://reffy.xyz</h1>
+              <p class="project-date"> July 2021 - Now</p>
               <p class="project-description">Reffy is a browser extension which helps users save money by leveraging referral rewards. Think of it like Honey but for referral codes. Reffy has been downloaded by 4 people</p>
               <h1 class="project-tools">Tools Used:  (split into frontend/backend) React, Manifest V3, JavaScript, Material UI, HTML, CSS</h1>
               <Button shape="round" icon={<GithubOutlined />} size="large">Project Repository</Button>

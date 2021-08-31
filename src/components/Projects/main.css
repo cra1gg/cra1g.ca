@@ -161,6 +161,11 @@ a { color: white; text-decoration: none; }
   font-size: 1.3rem;
 }
 
+.project-date {
+  color:#fff;
+  font-size: 1.4rem;
+}
+
 
 @keyframes gradient {
     0% {
