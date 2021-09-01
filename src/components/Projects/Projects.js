@@ -1,14 +1,16 @@
 import "./main.css";
 import 'react-hoverable-card/dist/index.css'
 import reffy from '../../media/reffy.png'
+import wordify from '../../media/wordify.jpg'
 import { Parallax } from 'react-parallax';
 import { Row, Col, Image } from 'antd';
 import { Button } from 'antd';
-
+import { ConstructOutline } from 'react-ionicons'
+import LeftProject from './LeftProject/LeftProject.js'
+import RightProject from './RightProject/RightProject.js'
 import {
   GithubOutlined,
   LinkOutlined
-
 } from "@ant-design/icons";
 
 function Projects() {
@@ -18,24 +20,34 @@ function Projects() {
       <Parallax strength={300}>
         
         <div class="projects-main" style={{ overflowY: 'scroll', height: 'calc(100vh)' }}>
-        <div class="projects">
+        <div class="projects" >
           <h1 class="main-title">Projects</h1>
-          <Row gutter={{ xs: 8, sm: 16, md: 24, lg: 32 }} align="middle">
-            <Col span={12}>
-              <Image  src={reffy}></Image>
-            </Col>
-            <Col span={12}>
-              <h1 class="project-title">Reffy.xyz</h1>
-              <h1 class="project-url">https://reffy.xyz</h1>
-              <p class="project-date"> July 2021 - Now</p>
-              <p class="project-description">Reffy is a browser extension which helps users save money by leveraging referral rewards. Think of it like Honey but for referral codes. Reffy has been downloaded by 4 people</p>
-              <h1 class="project-tools">Tools Used:  (split into frontend/backend) React, Manifest V3, JavaScript, Material UI, HTML, CSS</h1>
-              <Button shape="round" icon={<GithubOutlined />} size="large">Project Repository</Button>
-              <br></br>
-              <br></br>
-              <Button shape="round" icon={<LinkOutlined />} size="large">Live Demo</Button>
-            </Col>
-          </Row>
+          <LeftProject 
+            name="Reffy.xyz" 
+            url="https://reffy.xyz" 
+            date="July 2021 - Now" 
+            image={reffy}
+            description="Reffy is a browser extension which helps users 
+            save money by leveraging referral rewards. Think of it like Honey but for referral codes. 
+            Reffy has been downloaded by 4 people"
+            frontend="React, Manifest V3, JavaScript, Material UI, HTML, CSS"
+            backend="Python, Flask, Firebase, WSGI"
+            repo="https://github.com"
+            demo="https://reffy.xyz"
+            ></LeftProject>
+          <RightProject
+            name="Wordify.xyz" 
+            url="https://wordify.xyz" 
+            date="July 2021 - Now" 
+            image={wordify}
+            description="Wordify is a URL shortener based on the premise that shortened URLs
+            should be easy to read and easy to memorize. For this reason, Wordify uses only 
+            English words in shortened URLs."
+            frontend="React, Manifest V3, JavaScript, Material UI, HTML, CSS"
+            backend="Python, Flask, Firebase, WSGI"
+            repo="https://github.com"
+            demo="https://reffy.xyz"
+          ></RightProject>
           </div>
         </div>
       </Parallax>
