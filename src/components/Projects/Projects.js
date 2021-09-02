@@ -3,15 +3,8 @@ import 'react-hoverable-card/dist/index.css'
 import reffy from '../../media/reffy.png'
 import wordify from '../../media/wordify.jpg'
 import { Parallax } from 'react-parallax';
-import { Row, Col, Image } from 'antd';
-import { Button } from 'antd';
-import { ConstructOutline } from 'react-ionicons'
 import LeftProject from './LeftProject/LeftProject.js'
 import RightProject from './RightProject/RightProject.js'
-import {
-  GithubOutlined,
-  LinkOutlined
-} from "@ant-design/icons";
 
 function Projects() {
     return (

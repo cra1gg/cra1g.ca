@@ -16,7 +16,7 @@ function RightProject(props) {
           <div class="full-page">
           <Row gutter={{ xs: 8, sm: 16, md: 24, lg: 32 }} align="middle">
 
-            <Col span={12}>
+            <Col xs={24} sm={24} md={24} lg={12} xl={12}>
             <LightSpeed right>
                 <div>
               <h1 class="project-title">{props.name}</h1>
@@ -42,7 +42,7 @@ function RightProject(props) {
               </LightSpeed>
             </Col>
       
-            <Col span={12}>
+            <Col xs={24} sm={24} md={24} lg={12} xl={12}>
             <LightSpeed right>
               <Image  src={props.image}></Image>
               </LightSpeed>

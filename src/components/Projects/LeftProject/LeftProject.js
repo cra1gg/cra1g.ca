@@ -14,19 +14,19 @@ function LeftProject(props) {
       <div>
           <div class="full-page">
           <Row gutter={{ xs: 8, sm: 16, md: 24, lg: 32 }} align="middle" >
-            <Col span={12}>
+            <Col xs={24} sm={24} md={24} lg={12} xl={12}>
             <LightSpeed left>
               <Image  src={props.image}></Image>
             </LightSpeed>
             </Col>
-            <Col span={12}>
+            <Col xs={24} sm={24} md={24} lg={12} xl={12}>
             <LightSpeed left>
               <div>
               <h1 class="project-title">{props.name}</h1>
               <h1 class="project-url">{props.url}</h1>
               <p class="project-date">{props.date}</p>
               <p class="project-description">{props.description}</p>
-              <Row align="middle" gutter={5}>
+              <Row align="middle" gutter={5} >
                 <Col span={1}><ConstructOutline
                     color={'#00000'} 
                     height="100%"
