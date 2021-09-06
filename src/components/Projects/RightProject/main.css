@@ -68,23 +68,15 @@ body {
     transform: translateY(-15px);
   }
 }
-/* Demo Purpose Only*/
-.demo {
-  font-family: 'Raleway', sans-serif;
-    color:#fff;
-    display: block;
-    margin: 0 auto;
-    padding: 15px 0;
-    text-align: center;
-}
-.demo a{
-  font-family: 'Raleway', sans-serif;
-color: #2ecc71;		
-}
+
 
 
 body { background: #2d2d37; color:#fff;}
 a { color: white; text-decoration: none; }
+
+.button-container {
+  width: "50%"
+}
 
 .arrow {
   text-align: center;

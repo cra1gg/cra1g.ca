@@ -14,7 +14,7 @@ function RightProject(props) {
     return (
       <div>
           <div class="full-page">
-          <Row gutter={{ xs: 8, sm: 16, md: 24, lg: 32 }} align="middle">
+          <Row gutter={[{ xs: 8, sm: 16, md: 24, lg: 32 }, 48]} align="middle">
 
             <Col xs={24} sm={24} md={24} lg={12} xl={12}>
             <LightSpeed right>
@@ -34,10 +34,12 @@ function RightProject(props) {
               </Row>
               <h1 class="project-tools">Frontend: {props.frontend}</h1>
               <h1 class="project-tools">Backend: {props.backend}</h1>
-              <Button shape="round" icon={<GithubOutlined />} size="large" href={props.repo}>Project Repository</Button>
-              <br></br>
-              <br></br>
-              <Button shape="round" icon={<LinkOutlined />} size="large" href={props.demo}>Live Demo</Button>
+              <div class="button-container"> 
+                <Button ghost shape="round" icon={<GithubOutlined />} size="large" href={props.repo}>Project Repository</Button>
+                <br></br>
+                <br></br>
+                <Button ghost shape="round" icon={<LinkOutlined />} size="large" href={props.demo}>Live Demo</Button>
+              </div>
               </div>
               </LightSpeed>
             </Col>
@@ -47,7 +49,11 @@ function RightProject(props) {
               <Image  src={props.image}></Image>
               </LightSpeed>
             </Col>
-           
+            <Col xs={24} sm={24} md={24} lg={24} xl={24}>
+            <div class="downArrow bounce">
+            <img width="40" height="40" alt="" src="https://www.freeiconspng.com/thumbs/white-arrow-png/white-down-arrow-png-2.png" />
+          </div>
+            </Col>
           </Row>
           </div>
         </div>

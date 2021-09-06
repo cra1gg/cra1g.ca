@@ -7,9 +7,7 @@
 
 }
 
-body {
-    background: #eb4924;
-  }
+
 .downArrow{
     position: relative;
     bottom: 45%;
@@ -69,18 +67,6 @@ body {
   }
 }
 /* Demo Purpose Only*/
-.demo {
-  font-family: 'Raleway', sans-serif;
-    color:#fff;
-    display: block;
-    margin: 0 auto;
-    padding: 15px 0;
-    text-align: center;
-}
-.demo a{
-  font-family: 'Raleway', sans-serif;
-color: #2ecc71;		
-}
 
 
 body { background: #2d2d37; color:#fff;}
@@ -188,9 +174,6 @@ a { color: white; text-decoration: none; }
     }
 }
 
-body {
-  background: #eb4924;
-}
 .downArrow{
 	position: fixed;
 	bottom: 45%;
@@ -248,17 +231,4 @@ body {
     -webkit-transform: translateY(-15px);
     transform: translateY(-15px);
   }
-}
-/* Demo Purpose Only*/
-.demo {
-  font-family: 'Raleway', sans-serif;
-	color:#fff;
-    display: block;
-    margin: 0 auto;
-    padding: 15px 0;
-    text-align: center;
-}
-.demo a{
-  font-family: 'Raleway', sans-serif;
-color: #2ecc71;		
 }
