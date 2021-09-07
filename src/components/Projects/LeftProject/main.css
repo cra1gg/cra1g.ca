@@ -120,12 +120,17 @@ a { color: white; text-decoration: none; }
 }
 
 .projects {
-    height: 70vh;
+    height: 60vh;
     position: absolute;
     top: 43%;
     left: 50%;
     transform: translate(-50%, -50%);
     width: 70vw;
+}
+
+.padded {
+  padding: 25px;
+
 }
 
 .project-title {
@@ -154,7 +159,17 @@ a { color: white; text-decoration: none; }
 .project-tools {
   color:#fff;
   font-size: 1.2rem;
+  display: inline-block;
 }
+
+.project-tools-list {
+  color:#fff;
+  font-size: 1.2rem;
+  font-weight: normal;
+  display: inline-block;
+
+}
+
 
 .project-date {
   color:#fff;

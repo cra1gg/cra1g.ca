@@ -36,9 +36,7 @@ function RightProject(props) {
               <h1 class="project-tools">Backend: {props.backend}</h1>
               <div class="button-container"> 
                 <Button ghost shape="round" icon={<GithubOutlined />} size="large" href={props.repo}>Project Repository</Button>
-                <br></br>
-                <br></br>
-                <Button ghost shape="round" icon={<LinkOutlined />} size="large" href={props.demo}>Live Demo</Button>
+                <Button class="right-button" ghost shape="round" icon={<LinkOutlined />} size="large" href={props.demo}>Live Demo</Button>
               </div>
               </div>
               </LightSpeed>
@@ -50,9 +48,6 @@ function RightProject(props) {
               </LightSpeed>
             </Col>
             <Col xs={24} sm={24} md={24} lg={24} xl={24}>
-            <div class="downArrow bounce">
-            <img width="40" height="40" alt="" src="https://www.freeiconspng.com/thumbs/white-arrow-png/white-down-arrow-png-2.png" />
-          </div>
             </Col>
           </Row>
           </div>

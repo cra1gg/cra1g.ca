@@ -5,8 +5,10 @@ import wordify from '../../media/wordify.jpg'
 import { Parallax } from 'react-parallax';
 import LeftProject from './LeftProject/LeftProject.js'
 import RightProject from './RightProject/RightProject.js'
+import { useRef } from 'react'
 
 function Projects() {
+
     return (
       <div>
       
@@ -14,7 +16,6 @@ function Projects() {
         
         <div class="projects-main" style={{ overflowY: 'scroll', height: 'calc(100vh)' }}>
         <div class="projects" >
-          <h1 class="main-title">Projects</h1>
           <LeftProject 
             name="Reffy.xyz" 
             url="https://reffy.xyz" 
@@ -28,6 +29,7 @@ function Projects() {
             repo="https://github.com"
             demo="https://reffy.xyz"
             ></LeftProject>
+          <br></br>
           <RightProject
             name="Wordify.xyz" 
             url="https://wordify.xyz" 

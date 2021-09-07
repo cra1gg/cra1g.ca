@@ -125,8 +125,12 @@ a { color: white; text-decoration: none; }
     height:50vh; 
 }
 
+.right-button {
+  padding-left: 50px;
+}
+
 .projects {
-    height: 70vh;
+    height: 60vh;
     position: absolute;
     top: 43%;
     left: 50%;
