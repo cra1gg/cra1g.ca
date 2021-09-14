@@ -2,7 +2,6 @@ import "./main.css";
 import 'react-hoverable-card/dist/index.css'
 import { Row, Col, Image } from 'antd';
 import { Button } from 'antd';
-import { ConstructOutline } from 'react-ionicons'
 import LightSpeed from 'react-reveal/LightSpeed';
 
 import {
@@ -13,7 +12,7 @@ import {
 function RightProject(props) {
     return (
       <div>
-          <div class="full-page">
+          <div>
           <Row gutter={[{ xs: 8, sm: 16, md: 24, lg: 32 }, 48]} align="middle">
 
             <Col xs={24} sm={24} md={24} lg={12} xl={12}>
@@ -23,21 +22,21 @@ function RightProject(props) {
               <h1 class="project-url">{props.url}</h1>
               <p class="project-date">{props.date}</p>
               <p class="project-description">{props.description}</p>
-              <Row align="middle" gutter={5}>
-                <Col span={1}><ConstructOutline
-                    color={'#00000'} 
-                    height="100%"
-                    width="100%"
-                  />
+              <h1 class="project-tools-title">Tools Used:</h1>
+              <h1 class="project-tools">Frontend:&nbsp;</h1>
+              <h1 class="project-tools-list">{props.frontend}</h1>
+              <br></br>
+              <h1 class="project-tools">Backend:&nbsp;</h1>
+              <h1 class="project-tools-list">{props.backend}</h1>
+              <br></br>
+              <Row gutter={16}>
+                <Col className="gutter-row" span={7.5}>
+                  <Button class="padded" ghost shape="round" icon={<GithubOutlined />} size="large" href={props.repo}>Project Repository</Button>
                 </Col>
-                <Col span={10}><h1 class="project-tools-title">Tools Used:</h1></Col>
+                <Col className="gutter-row" span={6}>
+                  <Button class="padded" ghost shape="round" icon={<LinkOutlined />} size="large" href={props.demo}>Live Demo</Button>
+                </Col>
               </Row>
-              <h1 class="project-tools">Frontend: {props.frontend}</h1>
-              <h1 class="project-tools">Backend: {props.backend}</h1>
-              <div class="button-container"> 
-                <Button ghost shape="round" icon={<GithubOutlined />} size="large" href={props.repo}>Project Repository</Button>
-                <Button class="right-button" ghost shape="round" icon={<LinkOutlined />} size="large" href={props.demo}>Live Demo</Button>
-              </div>
               </div>
               </LightSpeed>
             </Col>

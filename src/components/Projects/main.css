@@ -4,7 +4,6 @@
     text-align: center;
     font-size: 4rem;
     color:#fff;
-
 }
 
 body {
@@ -127,6 +126,7 @@ a { color: white; text-decoration: none; }
     width: 100%;
     height:100vh;
     position: relative;
+    
 }
 
 .holder {
@@ -135,12 +135,13 @@ a { color: white; text-decoration: none; }
 }
 
 .projects {
-    height: 70vh;
-    position: absolute;
-    top: 43%;
+    height: 80vh;
+    position: relative;
+    top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    width: 70vw;
+    width: 80vw;
+    
 }
 
 .project-title {
@@ -159,7 +160,7 @@ a { color: white; text-decoration: none; }
 
 .project-tools-title {
   color:#fff;
-  font-size: 1.3rem;
+  font-size: 1.1rem;
 }
 
 .full-page {
@@ -168,7 +169,7 @@ a { color: white; text-decoration: none; }
 
 .project-tools {
   color:#fff;
-  font-size: 1.2rem;
+  font-size: 1.1rem;
 }
 
 .project-date {
