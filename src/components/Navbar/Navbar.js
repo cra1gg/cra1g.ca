@@ -71,8 +71,8 @@ class Navbar extends React.Component {
         <Menu.Item key="projects" icon={<CodeOutlined />}>
           <NavLink exact to="/projects">Projects</NavLink>
         </Menu.Item>
-        <Menu.Item key="battlestation" disabled icon={<DesktopOutlined />}>
-          Battlestation
+        <Menu.Item key="battlestation" icon={<DesktopOutlined />}>
+          <NavLink exact to="/battlestations">Battlestations</NavLink>
         </Menu.Item>
         <Menu.Item key="pc" disabled icon={<ToolOutlined />}>
           PC Builds

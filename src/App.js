@@ -1,6 +1,7 @@
 import Navbar from './components/Navbar/Navbar.js'
 import Home from './components/Home/Home.js'
 import Projects from './components/Projects/Projects.js'
+import Battlestations from './components/Battlestations/Battlestations.js'
 import {
   BrowserRouter as Router,
   Switch,
@@ -19,6 +20,7 @@ function App() {
         <Switch>
             <Route exact path="/" component={Home} />
             <Route path="/projects" component={Projects} />
+            <Route path="/battlestations" component={Battlestations} />
         </Switch>
       </div>   
      </Router>
