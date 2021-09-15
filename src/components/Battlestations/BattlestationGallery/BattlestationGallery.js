@@ -1,6 +1,5 @@
 import PropTypes from 'prop-types';
 import React from 'react';
-import ReactDOM from 'react-dom';
 import Gallery from 'react-grid-gallery';
 import './main.css'
 import bs20131 from '../../../media/battlestations/2013(1).jpg'
