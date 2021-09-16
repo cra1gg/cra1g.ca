@@ -32,11 +32,11 @@ function LeftProject(props) {
               <h1 class="project-tools">Backend:&nbsp;</h1>
               <h1 class="project-tools-list">{props.backend}</h1>
               <br></br>
-              <Row gutter={16}>
-                <Col className="gutter-row" span={7.5}>
+              <Row gutter={[16, 16]}>
+                <Col className="gutter-row" xs={7.5} xl={7.5}>
                   <Button class="padded" ghost shape="round" icon={<GithubOutlined />} size="large" href={props.repo}>Project Repository</Button>
                 </Col>
-                <Col className="gutter-row" span={6}>
+                <Col className="gutter-row" xs={24} xl={6}>
                   <Button class="padded" ghost shape="round" icon={<LinkOutlined />} size="large" href={props.demo}>Live Demo</Button>
                 </Col>
               </Row>

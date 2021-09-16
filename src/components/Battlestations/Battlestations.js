@@ -15,6 +15,9 @@ function Battlestations() {
             <h1 class="main-title">Battlestations</h1>
             <Divider />
             <BattlestationGallery></BattlestationGallery>
+            <br></br>
+            <br></br>
+
           </div>
         </div>
       </Parallax>

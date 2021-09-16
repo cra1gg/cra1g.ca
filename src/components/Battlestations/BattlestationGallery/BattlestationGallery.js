@@ -1,4 +1,3 @@
-import PropTypes from 'prop-types';
 import React from 'react';
 import './main.css'
 import bs20131 from '../../../media/battlestations/2013(1).jpg'
@@ -18,9 +17,6 @@ class BattlestationGallery extends React.Component {
     constructor(props) {
         super(props);
 
-        this.state = {
-            images: this.props.images
-        };
     }
 
     render() {
@@ -123,96 +119,5 @@ class BattlestationGallery extends React.Component {
     }
 }
 
-BattlestationGallery.propTypes = {
-    images: PropTypes.arrayOf(
-        PropTypes.shape({
-            src: PropTypes.string.isRequired,
-            thumbnail: PropTypes.string.isRequired,
-            srcset: PropTypes.array,
-            caption: PropTypes.oneOfType([
-                PropTypes.string,
-                PropTypes.element
-            ]),
-            thumbnailWidth: PropTypes.number.isRequired,
-            thumbnailHeight: PropTypes.number.isRequired,
-            isSelected: PropTypes.bool
-        })
-    ).isRequired
-};
-
-BattlestationGallery.defaultProps = {
-    images: [
-        {
-            src: bs20131,
-            thumbnail: bs20131,
-            thumbnailWidth: "50vw",
-            thumbnailHeight: "20vh",
-            caption: "Battlestation in 2013 (start of year)",
-            thumbnailCaption: (<span style={{color: "black"}}>2013</span>)
-        },
-        {
-            src: bs20132,
-            thumbnail: bs20132,
-            thumbnailWidth: "50vw",
-            thumbnailHeight: "20vh",
-            caption: "Battlestation in 2013 (end of year)",
-            thumbnailCaption: (<span style={{color: "black"}}>2013</span>),
-        },
-        {
-            src: bs2014,
-            thumbnail: bs2014,
-            thumbnailWidth: "50vw",
-            thumbnailHeight: "20vh",
-            caption: "Battlestation in 2014",
-            thumbnailCaption: (<span style={{color: "black"}}>2014</span>),
-        },
-        {
-            src: bs2015,
-            thumbnail: bs2015,
-            thumbnailWidth: "50vw",
-            thumbnailHeight: "20vh",
-            caption: "Battlestation in 2015",
-            thumbnailCaption: (<span style={{color: "black"}}>2015</span>),
-        },
-        {
-            src: bs2016,
-            thumbnail: bs2016,
-            thumbnailWidth: "50vw",
-            thumbnailHeight: "20vh",
-            caption: "Battlestation in 2016",
-            thumbnailCaption: (<span style={{color: "black"}}>2016</span>),
-        },
-        {
-            src: bs2018,
-            thumbnail: bs2018,
-            thumbnailWidth: "1080",
-            thumbnailHeight: "20vh",
-            caption: "Battlestation in 2018",
-            thumbnailCaption: (<span style={{color: "black"}}>2018</span>),
-        },
-        {
-            src: bs2019,
-            thumbnail: bs2019,
-            thumbnailWidth: "50vw",
-            thumbnailHeight: "20vh",
-            caption: "Battlestation in 2019",
-            thumbnailCaption: (<span style={{color: "black"}}>2019</span>),
-        },
-        {
-            src: bs20201,
-            thumbnail: bs20201,
-
-            caption: "Battlestation in 2020",
-            thumbnailCaption: (<span style={{color: "black"}}>2020</span>),
-        },
-        {
-            src: bs20202,
-            thumbnail: bs20202,
-
-            caption: "Battlestation in 2020",
-            thumbnailCaption: (<span style={{color: "black"}}>2020</span>),
-        }
-    ]
-};
 
 export default BattlestationGallery;
