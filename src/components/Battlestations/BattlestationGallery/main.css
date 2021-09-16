@@ -1,3 +1,66 @@
-.ReactGridGallery_tile-description {
-    background: #277fd1;
+* {box-sizing: border-box}
+
+/* Container needed to position the overlay. Adjust the width as needed */
+.container {
+  position: relative;
+  width: 100%;
 }
+
+/* Make the image to responsive */
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+/* The overlay effect - lays on top of the container and over the image */
+.overlay {
+  position: absolute;
+  bottom: 2%;
+  right: 10%;
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.5); /* Black see-through */
+  color: #f1f1f1;
+  width: 80%;
+  transition: .5s ease;
+  opacity:1;
+  color: white;
+  font-size: 1rem;
+  padding: 5px;
+  text-align: center;
+
+}
+
+.overlay2 {
+    position: absolute;
+    bottom: 2%;
+    right: 27.5%;
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.5); /* Black see-through */
+    color: #f1f1f1;
+    width: 45%;
+    transition: .5s ease;
+    opacity:1;
+    color: white;
+    font-size: 1rem;
+    padding: 5px;
+    text-align: center;
+  
+  }
+
+  .overlay3 {
+    position: absolute;
+    bottom: 2%;
+    right: 20%;
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.5); /* Black see-through */
+    color: #f1f1f1;
+    width: 60%;
+    transition: .5s ease;
+    opacity:1;
+    color: white;
+    font-size: 1rem;
+    padding: 5px;
+    text-align: center;
+  
+  }
