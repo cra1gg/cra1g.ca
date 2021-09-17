@@ -27,11 +27,10 @@
 }
 
 .card-normal {
-  color:rgb(0, 204, 255);
+  color:rgb(212, 216, 218);
   text-align: left;
   font-size: 1.1rem;
   line-height: 105%;
-  opacity: 1 !important;
 }
 
 
@@ -217,3 +216,4 @@ a { color: white; text-decoration: none; }
         background-position: 0% 50%;
     }
 }
+
