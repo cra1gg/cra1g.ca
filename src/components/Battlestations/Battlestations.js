@@ -90,7 +90,10 @@ function Battlestations() {
                     <br></br>
                   </Card>
                 </Col>
-            </Row>            
+            </Row>
+            <br></br> 
+            <br></br>
+            <br></br>        
           </div>
         </div>
       </Parallax>
