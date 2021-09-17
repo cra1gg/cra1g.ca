@@ -6,6 +6,34 @@
     color:#fff;
 }
 
+.card-title {
+  color:#fff;
+  text-align: left;
+  font-size: 2.7rem;
+}
+
+.card-holder {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.card-bolded {
+  color:#fff;
+  text-align: left;
+  font-size: 1.2rem;
+  font-weight: bold;
+  line-height: 80%;
+}
+
+.card-normal {
+  color:#fff;
+  text-align: left;
+  font-size: 1.1rem;
+  line-height: 70%;
+}
+
+
 body {
     background: #eb4924;
   }

@@ -14,10 +14,6 @@ import { Row, Col } from 'antd';
 
 
 class BattlestationGallery extends React.Component {
-    constructor(props) {
-        super(props);
-
-    }
 
     render() {
         return (
