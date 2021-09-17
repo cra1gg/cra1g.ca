@@ -23,14 +23,15 @@
   text-align: left;
   font-size: 1.2rem;
   font-weight: bold;
-  line-height: 80%;
+  line-height: 70%;
 }
 
 .card-normal {
-  color:#fff;
+  color:rgb(0, 204, 255);
   text-align: left;
   font-size: 1.1rem;
-  line-height: 70%;
+  line-height: 100%;
+  opacity: 1 !important;
 }
 
 

@@ -27,7 +27,9 @@ function Battlestations() {
                     title={<h1 class="card-title">PC</h1>} 
                     style={{
                       width: "80%",
-                      backgroundColor: "#7D9CAC"
+                      backgroundColor: "#2D2D37",
+                      height: "100%",
+                      opacity: 0.7
                     }}
                     bordered={false}>
                     <p class="card-bolded">CPU</p>
@@ -62,8 +64,9 @@ function Battlestations() {
                     title={<h1 class="card-title">Peripherals</h1>} 
                     style={{
                       width: "80%",
-                      backgroundColor: "#7D9CAC",
-                      height: "100%"
+                      backgroundColor: "#2D2D37",
+                      height: "100%",
+                      opacity: 0.7
                     }}
                     bordered={false}
                     >
