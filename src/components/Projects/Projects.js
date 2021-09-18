@@ -18,6 +18,7 @@ function Projects() {
         <div class="projects-main" style={{ overflowY: 'scroll', height: 'calc(100vh)' }}>
         <div class="projects" >
         <h1 class="main-title">Projects</h1>
+        <p class="subtitle">Here are some of the software-related projects I have worked on.</p>
         <Divider />
           <LeftProject 
             name="Reffy" 

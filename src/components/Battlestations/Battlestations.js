@@ -15,11 +15,13 @@ function Battlestations() {
         <div class="battlestations-main" style={{ overflowY: 'scroll', height: 'calc(100vh)' }}>
           <div class="battlestations" >
             <h1 class="main-title">Battlestations</h1>
+            <p class="subtitle">My "battlestation" has gone through many iterations over the years. Here's a little peak into its evolution. It's never truly finished.</p>
             <Divider />
             <BattlestationGallery></BattlestationGallery>
             <br></br>
             <br></br>
             <h1 class="main-title">Current Battlestation</h1>
+            <p class="subtitle">Here are the specifications of my current battlestation.</p>
             <Row gutter={[10, 60]} justify="end">
                 <Col className="gutter-row" xs={24} xl={12}>
                   <Card 
@@ -86,6 +88,11 @@ function Battlestations() {
                     <p class="card-bolded">Speakers</p>
                     <p class="card-normal">Logitech G560 120 W 2.1 Channel Speakers</p>
                     <br></br>
+                    <p class="card-bolded">Chair</p>
+                    <p class="card-normal">Autonomous Ergo Chair 2 (Black)</p>
+                    <br></br>
+                    <p class="card-bolded">Desk</p>
+                    <p class="card-normal">Vivo Electric 60 x 26 Stand Up Desk</p>
                   </Card>
                 </Col>
             </Row>
