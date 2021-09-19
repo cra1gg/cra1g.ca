@@ -1,6 +1,6 @@
 import React from 'react';
 import './main.css'
-import bs20131 from '../../../media/battlestations/2013(1).jpg'
+import main from '../../../media/builds/main.jpg'
 import bs20132 from '../../../media/battlestations/2013(2).jpg'
 import bs2014 from '../../../media/battlestations/2014.jpg'
 import bs2015 from '../../../media/battlestations/2015.jpg'
@@ -9,9 +9,10 @@ import bs2018 from '../../../media/battlestations/2018.jpg'
 import bs2019 from '../../../media/battlestations/2019.jpeg'
 import bs20201 from '../../../media/battlestations/2020(1).jpg'
 import bs20202 from '../../../media/battlestations/2020(2).jpg'
-import { Image } from 'antd';
+import { Image, Card } from 'antd';
 import { Row, Col } from 'antd';
 
+const { Meta } = Card;
 
 class BuildGallery extends React.Component {
 
@@ -27,13 +28,26 @@ class BuildGallery extends React.Component {
                 
                 <Row gutter={[10, 60]}>
                     <Col className="gutter-row" xs={24} xl={8}>
-                        <div class="container">
-                            <Image
-                                width={"80%"}
-                                src={bs20131}
-                            ></Image>
-                            <div class="overlay">Main PC</div>
-                        </div>
+                        <Card
+                            bordered={false}
+                            hoverable
+                            style={{
+                                width: "80%",
+                                backgroundColor: "rgba(45, 45, 55, 0.7)",
+                                height: "100%",
+                                
+                              }}
+                            cover={
+                                <img
+                                    alt="Main Build"
+                                    src={main}
+                                />
+                            }
+                        >
+                            <Meta title={
+                                <h1 class="card-title">Main PC</h1>
+                            } description="www.instagram.com" />
+                        </Card>
                     </Col>
                     <Col className="gutter-row" xs={24} xl={8}>
                         <div class="container">

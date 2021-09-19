@@ -1,3 +1,10 @@
+.card-title {
+  color: #fff;
+  text-align: center;
+  align-items: center;
+  font-size: 2rem;
+}
+
 * {box-sizing: border-box}
 
 /* Container needed to position the overlay. Adjust the width as needed */
@@ -7,7 +14,7 @@
 }
 
 /* Make the image to responsive */
-.image {
+.card {
   display: block;
   width: 100%;
   height: auto;
