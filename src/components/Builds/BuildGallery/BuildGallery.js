@@ -1,8 +1,6 @@
 import React from 'react';
 import './main.css'
 import main from '../../../media/builds/main.jpg'
-import bs20132 from '../../../media/battlestations/2013(2).jpg'
-import bs2014 from '../../../media/battlestations/2014.jpg'
 import bs2015 from '../../../media/battlestations/2015.jpg'
 import bs2016 from '../../../media/battlestations/2016.jpg'
 import bs2018 from '../../../media/battlestations/2018.jpg'
@@ -12,7 +10,6 @@ import bs20202 from '../../../media/battlestations/2020(2).jpg'
 import { Image, Card } from 'antd';
 import { Row, Col } from 'antd';
 
-const { Meta } = Card;
 
 class BuildGallery extends React.Component {
 
@@ -28,43 +25,72 @@ class BuildGallery extends React.Component {
                 
                 <Row gutter={[10, 60]}>
                     <Col className="gutter-row" xs={24} xl={8}>
-                        <Card
-                            bordered={false}
-                            hoverable
-                            style={{
-                                width: "80%",
-                                backgroundColor: "rgba(45, 45, 55, 0.7)",
-                                height: "100%",
-                                
-                              }}
-                            cover={
-                                <img
-                                    alt="Main Build"
-                                    src={main}
-                                />
-                            }
-                        >
-                            <Meta title={
-                                <h1 class="card-title">Main PC</h1>
-                            } description="www.instagram.com" />
-                        </Card>
-                    </Col>
-                    <Col className="gutter-row" xs={24} xl={8}>
                         <div class="container">
                             <Image
+                                style={{
+                                    marginBottom: "-6px"
+                                }}
                                 width={"80%"}
-                                src={bs20132}
+                                src={main}
                             ></Image>
-                            <div class="overlay">Late 2013</div>
+                            <Card
+                                className="card" 
+                                title={
+                                    <h1 class="card-title">Main PC</h1>
+                                }
+                                bordered={false} 
+                                style={{
+                                    width: "80%",
+                                    alignItems: "center"
+                                    }} >
+                                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+                            </Card>
                         </div>
                     </Col>
                     <Col className="gutter-row" xs={24} xl={8}>
-                        <div class="container">
+                    <div class="container">
                             <Image
+                                style={{
+                                    marginBottom: "-6px"
+                                }}
                                 width={"80%"}
-                                src={bs2014}
+                                src={main}
                             ></Image>
-                            <div class="overlay">2014</div>
+                            <Card
+                                className="card" 
+                                title={
+                                    <h1 class="card-title">Main PC</h1>
+                                }
+                                bordered={false} 
+                                style={{
+                                    width: "80%",
+                                    alignItems: "center"
+                                    }} >
+                                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+                            </Card>
+                        </div>
+                    </Col>
+                    <Col className="gutter-row" xs={24} xl={8}>
+                    <div class="container">
+                            <Image
+                                style={{
+                                    marginBottom: "-6px"
+                                }}
+                                width={"80%"}
+                                src={main}
+                            ></Image>
+                            <Card
+                                className="card" 
+                                title={
+                                    <h1 class="card-title">Main PC</h1>
+                                }
+                                bordered={false} 
+                                style={{
+                                    width: "80%",
+                                    alignItems: "center"
+                                    }} >
+                                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+                            </Card>
                         </div>
                     </Col>
                     <Col className="gutter-row" xs={24} xl={8}>
