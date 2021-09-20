@@ -103,60 +103,7 @@ class BuildGallery extends React.Component {
                             </Card>
                         </div>
                     </Col>
-                    <Col className="gutter-row" xs={24} xl={8}>
-                        <div class="container">
-                            <Image
-                                width={"80%"}
-                                src={bs2015}
-                            ></Image>
-                            <div class="overlay">2015</div>
-                        </div>
-                    </Col>
-                    <Col className="gutter-row" xs={24} xl={8}>
-                    <div class="container">
-                            <Image
-                                width={"80%"}
-                                src={bs2016}
-                            ></Image>
-                            <div class="overlay">2016</div>
-                        </div>
-                    </Col>
-                    <Col className="gutter-row" xs={24} xl={8}>
-                    <div class="container">
-                            <Image
-                                width={"45%"}
-                                src={bs2018}
-                            ></Image>
-                            <div class="overlay2">2017</div>
-                        </div>
-                    </Col>
-                    <Col className="gutter-row" xs={24} xl={8}>
-                        <div class="container">
-                            <Image
-                                width={"80%"}
-                                src={bs2019}
-                            ></Image>
-                            <div class="overlay">2019</div>
-                        </div>
-                    </Col>
-                    <Col className="gutter-row" xs={24} xl={8}>
-                        <div class="container">
-                            <Image
-                                width={"80%"}
-                                src={bs20201}
-                            ></Image>
-                            <div class="overlay">Early 2020</div>
-                        </div>
-                    </Col>
-                    <Col className="gutter-row" xs={24} xl={8}>
-                        <div class="container">
-                            <Image
-                                width={"60%"}
-                                src={bs20202}
-                            ></Image>
-                            <div class="overlay3">Late 2020</div>
-                        </div>
-                    </Col>
+                    
                 </Row>
 
                 
