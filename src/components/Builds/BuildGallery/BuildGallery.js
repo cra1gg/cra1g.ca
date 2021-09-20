@@ -2,12 +2,6 @@ import React from 'react';
 import './main.css'
 import main from '../../../media/builds/main.jpg'
 import placeholder from '../../../media/builds/placeholder.png'
-import bs2015 from '../../../media/battlestations/2015.jpg'
-import bs2016 from '../../../media/battlestations/2016.jpg'
-import bs2018 from '../../../media/battlestations/2018.jpg'
-import bs2019 from '../../../media/battlestations/2019.jpeg'
-import bs20201 from '../../../media/battlestations/2020(1).jpg'
-import bs20202 from '../../../media/battlestations/2020(2).jpg'
 import { Image, Card } from 'antd';
 import { Row, Col } from 'antd';
 

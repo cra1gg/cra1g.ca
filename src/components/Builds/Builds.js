@@ -3,8 +3,6 @@ import 'react-hoverable-card/dist/index.css'
 
 import { Parallax } from 'react-parallax';
 import { Divider } from 'antd';
-import { Card } from 'antd';
-import { Row, Col } from 'antd';
 import BuildGallery from "./BuildGallery/BuildGallery.js"
 import PreviousBuildGallery from "./PreviousBuildGallery/PreviousBuildGallery.js"
 function Battlestations() {
