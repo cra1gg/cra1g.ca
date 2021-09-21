@@ -41,7 +41,7 @@ function Interests() {
           }}>
           <div style={insideStyles}>
             <h1 class="main-text">Education</h1>
-            <h1 class="secondary-text">Honors Bachelor of Science, University of Toronto</h1>
+            <h1 class="secondary-text">Honours Bachelor of Science, University of Toronto</h1>
             <h1 class="icon-text">Major: Computer Science</h1>
             <h1 class="icon-text">Minors: Mathematics, Geography</h1>
             <h1 class="icon-text">cGPA: 3.54</h1>

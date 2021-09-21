@@ -15,7 +15,7 @@ function Battlestations() {
         <div class="battlestations-main" style={{ overflowY: 'scroll', height: 'calc(100vh)' }}>
           <div class="battlestations" >
             <h1 class="main-title">Battlestations</h1>
-            <p class="subtitle">My "battlestation" has gone through many iterations over the years. Here's a little peak into its evolution. It's never truly finished.</p>
+            <p class="subtitle">My "battlestation" has gone through many iterations over the years. Here's a little peek into its evolution. It's never truly finished.</p>
             <Divider />
             <BattlestationGallery></BattlestationGallery>
             <br></br>
