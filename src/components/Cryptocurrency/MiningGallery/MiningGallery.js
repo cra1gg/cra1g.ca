@@ -2,7 +2,6 @@ import React from 'react';
 import './main.css'
 import rig20181 from '../../../media/mining/2018(1).png'
 import rig20182 from '../../../media/mining/2018(2).png'
-import rig20211 from '../../../media/mining/2021(1).jpg'
 import rig20212 from '../../../media/mining/2021(2).jpg'
 import { Image } from 'antd';
 import { Row, Col } from 'antd';
