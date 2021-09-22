@@ -4,7 +4,7 @@ import 'react-hoverable-card/dist/index.css'
 import { Parallax } from 'react-parallax';
 import { Divider } from 'antd';
 import MiningGallery from "./MiningGallery/MiningGallery.js"
-import { PieChart, PieArcSeries } from 'react-minimal-pie-chart';
+import { PieChart } from 'react-minimal-pie-chart';
 
 export const data = [
   {
