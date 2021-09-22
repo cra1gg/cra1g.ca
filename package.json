@@ -23,6 +23,7 @@
     "react-hoverable-card": "^1.1.1",
     "react-icons": "^4.2.0",
     "react-ionicons": "^4.2.0",
+    "react-minimal-pie-chart": "^8.2.0",
     "react-page-scroller": "^2.2.1",
     "react-parallax": "^3.3.0",
     "react-reveal": "^1.2.2",
@@ -32,6 +33,7 @@
     "react-scroll-motion": "^0.2.1",
     "react-typing-animation": "^1.6.2",
     "react-vertical-timeline-component": "^3.3.3",
+    "reaviz": "^11.0.2",
     "web-vitals": "^1.0.1"
   },
   "scripts": {

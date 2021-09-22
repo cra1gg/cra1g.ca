@@ -80,8 +80,8 @@ class Navbar extends React.Component {
         <Menu.Item key="blog" disabled icon={<MediumOutlined />}>
           Blog
         </Menu.Item>
-        <Menu.Item key="crypto" disabled icon={<FallOutlined />}>
-          Cryptocurrency
+        <Menu.Item key="crypto"  icon={<FallOutlined />}>
+          <NavLink exact to="/cryptocurrency">Crypto</NavLink>
         </Menu.Item>
       </Menu>
     );
