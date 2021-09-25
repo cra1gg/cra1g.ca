@@ -1,8 +1,8 @@
 
 import './main.css';
-import { VerticalTimeline, VerticalTimelineElement }  from 'react-vertical-timeline-component';
+// import { VerticalTimeline, VerticalTimelineElement }  from 'react-vertical-timeline-component';
 import 'react-vertical-timeline-component/style.min.css';
-import { FaIdBadge, FaHammer, FaChartBar, FaChartLine, FaCode } from "react-icons/fa";
+// import { FaIdBadge, FaHammer, FaChartBar, FaChartLine, FaCode } from "react-icons/fa";
 import { Timeline, TimelineItem }  from 'vertical-timeline-component-for-react';
 
 function Work() {
