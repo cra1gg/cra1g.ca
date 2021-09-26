@@ -9,6 +9,7 @@ function Work() {
 
   return (
     <div class="fourth-container">
+        <div class="work-container">
         <h1 class="work-history-text">
         Work History
         </h1> 
@@ -106,7 +107,7 @@ function Work() {
                 }}
                 dateInnerStyle={{ 
                     background: '#fff', 
-                    color: '#000',
+                    color: '#1E333C',
                     padding: "0px",
                     lineHeight: "30px",
                     height: "30px",
@@ -133,7 +134,7 @@ function Work() {
                 }}
                 dateInnerStyle={{ 
                     background: '#fff', 
-                    color: '#000',
+                    color: '#1E333C',
                     padding: "0px",
                     lineHeight: "30px",
                     height: "30px",
@@ -169,7 +170,7 @@ function Work() {
                 }}
                 dateInnerStyle={{ 
                     background: '#fff', 
-                    color: '#000',
+                    color: '#1E333C',
                     padding: "0px",
                     lineHeight: "30px",
                     height: "30px",
@@ -204,7 +205,7 @@ function Work() {
                 }}
                 dateInnerStyle={{ 
                     background: '#fff', 
-                    color: '#000',
+                    color: '#1E333C',
                     padding: "0px",
                     lineHeight: "30px",
                     height: "30px",
@@ -237,7 +238,7 @@ function Work() {
                 }}
                 dateInnerStyle={{ 
                     background: '#fff', 
-                    color: '#000',
+                    color: '#1E333C',
                     padding: "0px",
                     lineHeight: "30px",
                     height: "30px",
@@ -259,6 +260,7 @@ function Work() {
                 </ul>
             </TimelineItem>
             </Timeline>
+        </div>
     </div>  
   );
 }

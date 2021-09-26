@@ -6,7 +6,14 @@
     
   }
 
-  
+  .work-container {
+    background: linear-gradient(-45deg, #49c9e6,  #1e8abd, #1E2020);
+    background-size: 400% 400%;
+    animation: gradient 30s ease infinite;
+    width: 100%;
+    position: relative;
+    
+}
 
 
   
