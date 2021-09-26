@@ -105,7 +105,7 @@ function Work() {
                     top: "-0px"
                 }}
                 dateInnerStyle={{ 
-                    background: '#61b8ff', 
+                    background: '#fff', 
                     color: '#000',
                     padding: "0px",
                     lineHeight: "30px",
@@ -132,7 +132,7 @@ function Work() {
                     top: "-0px"
                 }}
                 dateInnerStyle={{ 
-                    background: '#61b8ff', 
+                    background: '#fff', 
                     color: '#000',
                     padding: "0px",
                     lineHeight: "30px",
@@ -168,7 +168,7 @@ function Work() {
                     top: "-0px"
                 }}
                 dateInnerStyle={{ 
-                    background: '#61b8ff', 
+                    background: '#fff', 
                     color: '#000',
                     padding: "0px",
                     lineHeight: "30px",
@@ -203,7 +203,7 @@ function Work() {
                     top: "-0px"
                 }}
                 dateInnerStyle={{ 
-                    background: '#61b8ff', 
+                    background: '#fff', 
                     color: '#000',
                     padding: "0px",
                     lineHeight: "30px",
@@ -236,7 +236,7 @@ function Work() {
                     top: "-0px"
                 }}
                 dateInnerStyle={{ 
-                    background: '#61b8ff', 
+                    background: '#fff', 
                     color: '#000',
                     padding: "0px",
                     lineHeight: "30px",
