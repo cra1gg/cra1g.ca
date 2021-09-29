@@ -2,7 +2,7 @@ import "./main.css";
 import 'react-hoverable-card/dist/index.css'
 import { Row, Col, Image } from 'antd';
 import { Button } from 'antd';
-import LightSpeed from 'react-reveal/LightSpeed';
+import Pulse from 'react-reveal/Pulse';
 import {
   GithubOutlined,
   LinkOutlined
@@ -14,12 +14,12 @@ function LeftProject(props) {
       <div>
           <Row gutter={[{ xs: 8, sm: 16, md: 24, lg: 32 }, 16]} align="middle" >
             <Col xs={24} sm={24} md={24} lg={12} xl={12}>
-            <LightSpeed left>
+            <Pulse >
               <Image  src={props.image}></Image>
-            </LightSpeed>
+            </Pulse>
             </Col>
             <Col xs={24} sm={24} md={24} lg={12} xl={12}>
-            <LightSpeed left>
+            <Pulse>
               <div>
               <h1 class="project-title">{props.name}</h1>
               <h1 class="project-url">{props.url}</h1>
@@ -46,7 +46,7 @@ function LeftProject(props) {
               
               
               </div>
-              </LightSpeed>
+              </Pulse>
               
             </Col>
             

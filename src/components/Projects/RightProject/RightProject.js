@@ -2,7 +2,7 @@ import "./main.css";
 import 'react-hoverable-card/dist/index.css'
 import { Row, Col, Image } from 'antd';
 import { Button } from 'antd';
-import LightSpeed from 'react-reveal/LightSpeed';
+import Pulse from 'react-reveal/Pulse';
 
 import {
   GithubOutlined,
@@ -16,7 +16,7 @@ function RightProject(props) {
           <Row gutter={[{ xs: 8, sm: 16, md: 24, lg: 32 }, 48]} align="middle">
 
             <Col xs={24} sm={24} md={24} lg={12} xl={12}>
-            <LightSpeed right>
+            <Pulse>
                 <div>
               <h1 class="project-title">{props.name}</h1>
               <h1 class="project-url">{props.url}</h1>
@@ -38,13 +38,13 @@ function RightProject(props) {
                 </Col>
               </Row>
               </div>
-              </LightSpeed>
+              </Pulse>
             </Col>
       
             <Col xs={24} sm={24} md={24} lg={12} xl={12}>
-            <LightSpeed right>
+            <Pulse>
               <Image  src={props.image}></Image>
-              </LightSpeed>
+              </Pulse>
             </Col>
             <Col xs={24} sm={24} md={24} lg={24} xl={24}>
             </Col>
