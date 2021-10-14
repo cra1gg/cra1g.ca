@@ -26,7 +26,7 @@ class MiningGallery extends React.Component {
                                 width={"80%"}
                                 src={rig20181}
                             ></Image>
-                            <div class="overlay">Early 2013</div>
+                            <div class="overlay">2017</div>
                         </div>
                     </Col>
                     <Col className="gutter-row" xs={24} xl={8}>
@@ -35,7 +35,7 @@ class MiningGallery extends React.Component {
                                 width={"80%"}
                                 src={rig20182}
                             ></Image>
-                            <div class="overlay">Late 2013</div>
+                            <div class="overlay">2018</div>
                         </div>
                     </Col>
                     <Col className="gutter-row" xs={24} xl={8}>
@@ -44,7 +44,7 @@ class MiningGallery extends React.Component {
                                 width={"80%"}
                                 src={rig20212}
                             ></Image>
-                            <div class="overlay">2015</div>
+                            <div class="overlay">2021</div>
                         </div>
                     </Col>
             
