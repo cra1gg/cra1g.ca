@@ -81,14 +81,11 @@
 
 ### Built With
 
-* [Next.js](https://nextjs.org/)
 * [React.js](https://reactjs.org/)
-* [Vue.js](https://vuejs.org/)
-* [Angular](https://angular.io/)
-* [Svelte](https://svelte.dev/)
-* [Laravel](https://laravel.com)
-* [Bootstrap](https://getbootstrap.com)
-* [JQuery](https://jquery.com)
+* [Ant Design](https://ant.design/)
+* [Vercel](https://vercel.com/)
+* [React Reveal](https://www.react-reveal.com/)
+* [Reaviz](https://github.com/reaviz/reaviz)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
