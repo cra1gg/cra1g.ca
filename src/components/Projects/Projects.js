@@ -12,12 +12,10 @@ import { Divider } from 'antd';
 function Projects() {
 
     return (
-      <div>
-      
       <Parallax strength={300}>
-        <div class="projects-main" style={{ overflowY: 'scroll', height: 'calc(100vh)' }}>
-        <div class="projects" >
-        <h1 class="main-title">Projects</h1>
+      <div class="projects-outer" style={{ overflowY: 'scroll', height: 'calc(100vh)' }}>
+        <div class="projects-inner" >
+          <h1 class="main-title">Projects</h1>
         <p class="subtitle">Here are some of the software-related projects I have worked on.</p>
         <Divider />
           <LeftProject 
@@ -81,7 +79,6 @@ function Projects() {
           </div>
         </div>
       </Parallax>
-      </div>
 
     );
   }

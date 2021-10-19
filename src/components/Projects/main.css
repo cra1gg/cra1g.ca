@@ -43,30 +43,27 @@ color: #2ecc71;
   text-align: center;
 }
 
-.projects-main {
-    background: linear-gradient(-45deg, #49c9e6,  #1e8abd, #1E2020);
-    background-size: 400% 400%;
-    animation: gradient 30s ease infinite;
-    width: 100%;
-    height:100vh;
-    position: relative;
-    
+.projects-outer {
+  background: linear-gradient(-45deg, #49c9e6,  #1e8abd, #1E2020);
+  background-size: 400% 400%;
+  animation: gradient 30s ease infinite;
+  width: 100%;
+  height:100vh;
+  position: relative;
+  
 }
 
-.holder {
-    width: 60vw;
-    height:50vh; 
+
+.projects-inner {
+  height: 80vh;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 80vw;
+  
 }
 
-.projects {
-    height: 80vh;
-    position: relative;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 80vw;
-    
-}
 
 .project-title {
   color:#fff;
