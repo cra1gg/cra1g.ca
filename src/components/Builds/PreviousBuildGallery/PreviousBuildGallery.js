@@ -6,7 +6,9 @@ import build3 from '../../../media/builds/build3.jpg'
 import build4 from '../../../media/builds/build4.jpeg'
 import build5 from '../../../media/builds/build5.png'
 import { Image } from 'antd';
-import { Row, Col } from 'antd';
+import { Row, Col, Card } from 'antd';
+
+const { Meta } = Card;
 
 
 class PreviousBuildGallery extends React.Component {
@@ -23,50 +25,81 @@ class PreviousBuildGallery extends React.Component {
                 
                 <Row gutter={[10, 60]}>
                     <Col className="gutter-row" xs={24} xl={8}>
-                        <div class="container">
-                            <Image
-                                width={"80%"}
-                                src={build1}
-                            ></Image>
-                            <div class="overlay">
-                                 Personal (2017)</div>
-                        </div>
+                        <Card
+                            className="card" 
+                            
+                            bordered={false}
+                            cover={<Image src={build1}></Image>}
+                            style={{
+                                width: "80%",
+                                alignItems: "center",
+                                backgroundColor: "rgba(45, 45, 55, 0.7)",
+                                
+                                }} >
+                            <p class="card-text" style={{padding: "0px", lineHeight: "100%", marginBottom: "0.5rem"}}>Personal (2017)</p>
+                        </Card>
                     </Col>
                     <Col className="gutter-row" xs={24} xl={8}>
-                        <div class="container">
-                            <Image
-                                width={"80%"}
-                                src={build2}
-                            ></Image>
-                            <div class="overlay">Personal (2017)</div>
-                        </div>
+                        <Card
+                            className="card" 
+                            
+                            bordered={false}
+                            cover={<Image src={build2}></Image>}
+                            style={{
+                                width: "80%",
+                                alignItems: "center",
+                                backgroundColor: "rgba(45, 45, 55, 0.7)",
+                                
+                                }} >
+                            <p class="card-text" style={{padding: "0px", lineHeight: "100%", marginBottom: "0.5rem"}}>Personal (2017)</p>
+                        </Card>
                     </Col>
                     <Col className="gutter-row" xs={24} xl={8}>
-                        <div class="container">
-                            <Image
-                                width={"80%"}
-                                src={build3}
-                            ></Image>
-                            <div class="overlay">Client (2017)</div>
-                        </div>
+                        <Card
+                            className="card" 
+                            
+                            bordered={false}
+                            cover={<Image src={build3}></Image>}
+                            style={{
+                                width: "80%",
+                                alignItems: "center",
+                                backgroundColor: "rgba(45, 45, 55, 0.7)",
+                                
+                                }} >
+                            <p class="card-text" style={{padding: "0px", lineHeight: "100%", marginBottom: "0.5rem"}}>Client (2017)</p>
+                        </Card>
                     </Col>
                     <Col className="gutter-row" xs={24} xl={8}>
-                        <div class="container">
-                            <Image
-                                width={"80%"}
-                                src={build4}
-                            ></Image>
-                            <div class="overlay">Personal (2018)</div>
-                        </div>
+                        <Card
+                            className="card" 
+                            
+                            bordered={false}
+                            cover={<Image src={build4}></Image>}
+                            style={{
+                                width: "80%",
+                                alignItems: "center",
+                                backgroundColor: "rgba(45, 45, 55, 0.7)",
+                                
+                                }} >
+                            <p class="card-text" style={{padding: "0px", lineHeight: "100%", marginBottom: "0.5rem"}}>Personal (2018)</p>
+                        </Card>
                     </Col>
                     <Col className="gutter-row" xs={24} xl={8}>
-                    <div class="container">
-                            <Image
-                                width={"80%"}
-                                src={build5}
-                            ></Image>
-                            <div class="overlay">Client (2018)</div>
-                        </div>
+                    
+                        <Card
+                            className="card" 
+                            
+                            bordered={false}
+                            cover={<Image src={build5}></Image>}
+                            style={{
+                                width: "80%",
+                                alignItems: "center",
+                                backgroundColor: "rgba(45, 45, 55, 0.7)",
+                                
+                                }} >
+                            <p class="card-text" style={{padding: "0px", lineHeight: "100%", marginBottom: "0.5rem"}}>Client (2018)</p>
+                        </Card>
+                    
                     </Col>
                 </Row>
 
