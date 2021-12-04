@@ -8,8 +8,6 @@ import build5 from '../../../media/builds/build5.png'
 import { Image } from 'antd';
 import { Row, Col, Card } from 'antd';
 
-const { Meta } = Card;
-
 
 class PreviousBuildGallery extends React.Component {
 
