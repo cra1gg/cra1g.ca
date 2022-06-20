@@ -122,6 +122,18 @@ function Work() {
             >
                 <h3 className="vertical-timeline-element-title">DevOps Engineer</h3>
                 <h4 className="vertical-timeline-element-subtitle">Riskfuel Analytics - Toronto, ON</h4>
+                <br></br>
+                <ul class="job-desc">
+                    <li>Provisioned and managed a bare-metal Kubernetes cluster comprised of over 120 nodes.</li>
+                    <li>Ensured continued operation and high-performance of cutting-edge machine learning tools including Nvidia DGX A100s.</li>
+                    <li>Transitioned infrastructure deployment from manual to automated with Metal as a Service.</li>
+                    <li>Managed CI/CD pipelines using ArgoCD and GitHub Actions</li>
+                    <li>Developed custom Kubernetes operators using Golang</li>
+                    <li>Managed over 100 TiB of high-throughput nvme distributed file storage using Ceph</li>
+                    <li>Worked with AWS, Azure, and IBM Cloud, to build out hybrid cloud. </li>
+                    <li>Migrated client-facing demos from Azure to On-Premises DMZ</li>
+                    <li>Consulted with and developed internal tools for data scientists</li>
+                </ul>
             </TimelineItem>
             <TimelineItem
                 key="002"
